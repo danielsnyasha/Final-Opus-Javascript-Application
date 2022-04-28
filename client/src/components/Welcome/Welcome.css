@@ -1,0 +1,200 @@
+.welcome {
+  display: flex;
+  background-color:  #0f0647;
+  background-repeat: round;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.welcomeContainer1 {
+  display: flex;
+  /* background-image: url("../pictures/webbackground.jpg"); */
+  background-color: #160b59;
+  background-repeat: round;
+  width: 100%;
+  height: 1000px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .welcomeImage {
+  display: flex;
+  max-width: 800px;
+  height: 994px;
+  -moz-border-radius: 30px;
+  border-radius: 1px;
+  -webkit-border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+} */
+.welcome > img{
+  object-fit: contain;
+  max-width: 1000px;
+  width: 90%;
+  -moz-border-radius:10px;
+  border-radius: 1px;
+  -webkit-border-radius: 10px;
+  /* margin-top: 5vh; */
+
+  
+  
+}
+
+.welcomeTop {
+  display: flex;
+  background-color: #160b59;
+  justify-content: flex-start;
+  width: 80%;
+  height: 10%;
+  margin: 20px;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-color: #8a2529;
+  border-width: 2px;
+}
+.welcomeBottom {
+  display: flex;
+  /* background-image: url('../pictures/webbackground.jpg'); */
+  /* background-color: aqua; */
+  background-repeat: round;
+  width: 100%;
+  height: 800px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.welcomeLeft {
+  display: flex;
+  background-color: #8a2529;
+  width: 18%;
+  height: 500px;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #fff;
+}
+.welcomeCentral {
+  display: flex;
+  /* background-color: #160b29; */
+  height: 500px;
+  width: 28%;
+}
+.welcomeRight {
+  display: flex;
+  background-color: #8a2529;
+  height: 500px;
+  width: 18%;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+.midscreen {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: #160b59;
+  width: 100%;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  border: 2px solid #8a2529;
+  -webkit-border-radius: 20px;
+}
+.rightscreen {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: #8a2529;
+  width: 100%;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  border: 1px solid white;
+  -webkit-border-radius: 20px;
+}
+.midscreentext {
+  display: flex;
+  color: rgb(194, 112, 112);
+  text-align: center;
+  font-family: "Segoe-UI";
+  font-size: 27px;
+  margin: 8px;
+}
+
+.welscreentext {
+  display: flex;
+  color: #201180;
+  text-align: center;
+  font-family: "Segoe-UI";
+  font-size: 27px;
+  margin: 8px;
+}
+
+.rightscreentext {
+  display: flex;
+  font-family: "Segoe-UI";
+  font-size: 1.1pc;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.imagecontainer {
+  display: flex;
+  height: 15%;
+  width: 60%;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 2%;
+  -moz-border-radius: 20px;
+  border: 2px solid #8a2529;
+  -webkit-border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imagewelcome {
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+.maroonscreentext {
+  display: flex;
+  font-family: "Segoe-UI";
+  font-size: 1.1pc;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.maroonscreentext1 {
+  display: flex;
+  font-family: "Segoe-UI";
+  font-size: 1pc;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.BIG3 {
+  display: flex;
+  font-family: "Segoe-UI";
+  font-size: 1.3pc;
+  font-weight: B;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: rgb(158, 152, 152);
+}

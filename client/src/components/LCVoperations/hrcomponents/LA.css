@@ -1,0 +1,194 @@
+.leaveappContainer {
+  display: flex;
+  /* background-image: url("../../pictures/webbackground.jpg"); */
+  background-color: rgb(233, 208, 208);
+  background-repeat: round;
+  width: 100%;
+  height: 850px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leaveFormBg {
+  display: flex;
+  background: #0f0647;
+  height: 80%;
+  width: 800px;
+  
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-style: double;
+  border-color: #73171e;
+}
+.firstLineForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.LaHeader {
+  display: flex;
+  color: white;
+  font-family: "Segoe UI";
+}
+.secondlineform {
+  display: flex;
+}
+
+.secondlinetext {
+  display: flex;
+  color: white;
+  font-family: "Segoe UI";
+}
+.nameCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  background-color: violet;
+}
+.secondlinela {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height: 20%;
+}
+.Name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.Surname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.nameText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: normal;
+}
+.surnameText {
+  display: flex;
+  font-family: "Segoe UI";
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+.DateContainer {
+  display: flex;
+
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 20%;
+}
+
+.Date1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+.inputla {
+  display: flex;
+  height: 30px;
+  width: 310px;
+  text-align: center;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-width: 2px;
+  border-color: white;
+}
+.formContainerL {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  background-color: teal;
+}
+.Date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.thirdcolumnLA {
+  display: flex;
+  /* background-color: yellowgreen; */
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 20%;
+  justify-content: center;
+}
+.bigInputsla {
+  display: flex;
+  width: 80%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: teal; */
+}
+.myInputsf {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+}
+.bigtextla {
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Segoe UI";
+  font-weight: normal;
+}
+.buttonSpecial {
+  display: flex;
+  background-color: #73171e;
+  width: 250px;
+  height: 40%;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  justify-content: center;
+  color: aliceblue;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: bold;
+}
+.buttonContainers {
+  display: flex;
+  width: 90%;
+  height: 15%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}

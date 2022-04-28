@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1,
+p {
+  font-family: Lato;
+}
+
+.documents__container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  max-width: 1200px;
+  height: 35vh;
+  width: 900px;
+  min-width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #73171e; */
+  
+}
+
+.documents{
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.documents__div {
+  top: 20px;
+  position: sticky;
+  /* max-width: 250px; */
+  background-color: rgb(248, 200, 200);
+  border-radius: 10px;
+  text-align: center;
+  height: 90%;
+  /* margin-right: 20px; */
+  width: 30%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__body{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  max-width: 1200px;
+  width: 900px;
+  /* width: 800px; */
+  min-width: 300px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  /* background-color: aqua; */
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.HomeProfile {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-image: url(../pictures/webbackground.jpg); */
+    background-color: rgb(233, 208, 208);
+    background-repeat: round;
+    
+
+}
+
+.Container {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(233, 208, 208);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.InnerContainerProfile {
+  background-color: #73171e;
+  height: 40%;
+  width: 800px;
+  margin: 40px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.columns1 {
+  background-color: white;
+  height: 15%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  box-sizing: border-box;
+  padding: 1px 7px 2px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #160b59;
+}
+.usernameTab {
+  display: flex;
+  background-color:#73171e;
+  margin: 5px;
+  width: 800px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 5px;
+}
+.usernameTab1 {
+  display: flex;
+  color: aliceblue;
+  font-family: "Segoe UI";
+  height: 100%;
+  font-size: 26px;
+}
+.columns2 {
+  background-color: darkblue;
+  height: 15%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  border-radius: 2px;
+  border-color:#73171e;
+}
+.columns3 {
+  background-color: black;
+  height: 15%;
+  width: 80%;
+  display: flex;
+}
+.columns4 {
+  background-color: green;
+  height: 15%;
+  width: 80%;
+  display: flex;
+  border-bottom-left-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.myImage {
+  height: 40px;
+  width: 180px;
+  border-radius: 2%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 5px;
+}
+.buttonC {
+  display: flex;
+  height: 15%;
+  width: 80%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-emphasis-color: blue;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.button {
+  align-items: center;
+  color: #000;
+  justify-content: center;
+  height: 40px;
+  width: 50%;
+  flex-direction: column;
+  -webkit-appearance: button;
+  text-rendering: auto;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  padding: 1px 7px 2px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.Home {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-image: url(../pictures/webbackground.jpg); */
+  background-color: rgb(233, 208, 208);
+  background-repeat: round;
+}
+
+.Post {
+  width: 800px;
+  height: 400px;
+  border: 5px solid #0f0647;
+  background-color: white;
+  /* box-shadow: 2px 2px 5px 2px #73171e; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 2%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 15px;
+}
+.PostProfile {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #0f0647;
+    background-color: rgb(233, 208, 208);
+    /* box-shadow: 2px 2px 5px 2px #73171e; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 2%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 4px;
+  }
+.ImageProfile {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #01708e;
+  justify-content: space-evenly;
+  border-radius: 12%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 1px;
+}
+.imgProfile {
+  width: 70%;
+  height: 95%;
+  align-self: center;
+  justify-content: center;
+  border-radius: 2%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 5px;
+}
+.Content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onTop {
+  background-color: #73171e;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI";
+  font-weight: bolder;
+  font-size: 23px;
+}
+.onBottom {
+  background-color: white;
+  height: 50%;
+  width: 99.4%;
+  display: flex;
+  text-align: center;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+}
+.Likes {
+  display: grid;
+  place-items: center;
+}
+.Thumbnail {
+  font-size: 50px;
+  color: black;
+  outline: #73171e;
+}
+
+#likeButton:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#likeButton:focus {
+  color: #73171e;
+}

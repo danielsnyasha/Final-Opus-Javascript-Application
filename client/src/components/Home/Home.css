@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+    
+}
+h1,
+p {
+  font-family: Lato;
+}
+.feed{
+  flex: 600px;
+  margin: 0 20px;
+}
+
+.feed__inputContainer{
+  padding: 10px;
+  background-color:#fff;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: sticky;
+  margin-top: 50px;
+}
+.feed__input{
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+}
+.feed__input1{
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* .feed__input > form {
+  display: flex;
+  width: 100%;
+} */
+.feed__forms{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.feed__forms1{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  
+}
+.feed__button{
+  display: flex;
+  margin-left: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  width: 35%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #73171e;
+}
+.feed__input > form > input{
+  border: none;
+  margin-left: 25px;
+  outline-width: 0;
+  font-weight: 600;
+  flex: 1;
+}
+.feed__input1 > form > input{
+  border: none;
+  margin-left: 25px;
+  outline-width: 0;
+  font-weight: 600;
+  flex: 1;
+}
+
+.feed__input > form > button{
+  display: none;
+}
+.feed__input1 > form > button{
+  display:none;
+}
+.feed__inputOptions{
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,42 @@
+.TOcover{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 208, 208);
+    align-items: center;
+    justify-content: flex-start;
+}
+.TOfirst{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    background-color: #160b59;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border-radius: 2px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 30px;
+}
+.TOsecond{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    background-color:#8a2529;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    border-radius: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+}
+.TOinner{
+    display: flex;
+    height: 90%;
+    /* background-color: cadetblue; */
+    width: 95%;
+}

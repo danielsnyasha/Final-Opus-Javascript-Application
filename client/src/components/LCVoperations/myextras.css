@@ -1,0 +1,27 @@
+.MyExtrasContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background-color: rgb(233, 208, 208);
+  align-items: center;
+}
+.MEC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 800px;
+  /* background-color: violet; */
+}
+.stakeContainer {
+  display: flex;
+  width:100%;
+  height:50%;
+  -moz-border-radius: 30px;
+  border-radius: 1px;
+  -webkit-border-radius: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #73171e;
+}

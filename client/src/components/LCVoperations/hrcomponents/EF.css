@@ -1,0 +1,237 @@
+.EFcontainer {
+  display: flex;
+  /* background-image: url("../../pictures/new/WBG1.png"); */
+  background-repeat: round;
+  background-color: rgb(233, 208, 208);
+  width: 100%;
+  height: 899px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.EFinnercontainer {
+  display: flex;
+  width: 800px;
+  height: 90%;
+  background-color: #0f0647;
+  margin-top: 20px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style:solid;
+  border-width: 2px;
+  border-color: #73171e;
+}
+.TitleEF {
+  display: flex;
+  width: 90%;
+  /* background-color: gold; */
+  height: 10%;
+  margin-top: 20px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.titleText {
+  display: flex;
+  font-family: "Segoe UI";
+  font-size: 25px;
+}
+.TopSection {
+  display: flex;
+  height: 20%;
+  width: 95%;
+  /* background-color: black; */
+
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  flex-direction: column;
+}
+.SecondSection {
+  display: flex;
+  height: 20%;
+  width: 95%;
+  /* background-color: cadetblue; */
+
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+}
+.ThirdSection {
+  display: flex;
+  height: 20%;
+  width: 95%;
+  /* background-color: crimson; */
+  justify-content: center;
+  flex-direction: column;
+  
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+}
+.FourthSection {
+  display: flex;
+  height: 20%;
+  width: 95%;
+  /* background-color: deepskyblue; */
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.TopFirst {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 23px;
+}
+.LastFirst {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 33px;
+  }
+  .LastButton{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 40%;
+  }
+  .LaButton{
+      display: flex;
+      width: 30%;
+      height: 80%;
+      text-align: center;
+      background-color: #73171e;
+      color: aliceblue;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin-left: 120px;
+  }
+.inputLast {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-top: 8px;
+    border-radius: 2px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    border-color: #0f0647;
+  }
+.inputCol {
+  display: flex;
+  height: 80%;
+  width: 30%;
+  margin-top: 8px;
+  border-radius: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  border-color: #0f0647;
+}
+
+.TopSecond {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 90%;
+  height: 100%;
+}
+.topInputEF {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.btmInputEF {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  height: 70%;
+  align-items: center;
+}
+.textEF {
+  display: flex;
+  font-size: 17px;
+  font-family: "Segoe UI";
+}
+.inputColbt {
+  display: flex;
+  height: 80%;
+  width: 70%;
+  margin-top: 8px;
+  border-radius: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  border-color: #0f0647;
+}
+
+.SecondSection {
+  display: flex;
+  height: 20%;
+  width: 95%;
+  /* background-color: black; */
+
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  flex-direction: column;
+}
+.SecondFirst {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 23px;
+}
+.inputCol2nd {
+  display: flex;
+  height: 70%;
+  width: 30%;
+  margin-top: 8px;
+  border-radius: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Segoe UI";
+  border-color: #0f0647;
+}
+.titleTextEF{
+  color: white;
+  font-family: 'Segoe UI';
+  font-size: 24px;
+}
+.textEF{
+  color: white;
+  font-family: 'Segoe UI';
+  font-weight: normal;
+}

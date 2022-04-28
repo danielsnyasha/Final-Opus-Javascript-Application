@@ -1,0 +1,107 @@
+.maintenance {
+  display: flex;
+  /* width:100%;
+    height: 100vh; */
+  object-fit: contain;
+  /* background: url("../pictures/webbackground.jpg"); */
+  background-color: rgb(233, 208, 208);
+  background-repeat: round;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+/* .mantTop {
+    display: flex;
+    height: 20%;
+    object-fit: contain;
+    background-color: #8a2529; 
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
+.mant__Top {
+  display: flex;
+  /* background-color:blue; */
+  width: 70%;
+  max-width: 900px;
+  height: 30%;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  border-color: #73171e;
+  border-width: 2px;
+  /* border-style: solid; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mant__Bottom {
+  display: flex;
+  /* background-color:blue; */
+  max-width: 900px;
+  width: 70%;
+  height: 40%;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 30px;
+  border-color: #73171e;
+  border-width: 2px;
+  /* border-style: solid; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#mantImage {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-style: solid;
+  background-color: rgb(233, 208, 208);
+  font-family: "Segoe UI";
+  border-color: #73171e;
+}
+.sectionI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: coral; */
+  width: 100%;
+}
+.sectionT {
+  display: flex;
+  font-size: 15px;
+  color: #0f0647;
+  margin-top: 6px;
+}
+.BackContainer {
+  display: flex;
+  width: 100px;
+  align-self: center;
+  height: 100px;
+  justify-self: flex-start;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+.backImage {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-color: #73171e;
+  border-width: 1px;
+  border-style: solid;
+}

@@ -1,0 +1,125 @@
+.machContainer{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+
+}
+.matchTop{
+    display: flex;
+    height: 260px;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.mtImage{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    -moz-border-radius: 20px;
+    border-radius: 1px;
+    -webkit-border-radius: 30px;
+    border-style: solid;
+    border-color: #73171e;
+}
+.machInner{
+    display: flex;
+    width: 800px;
+    height: auto;
+    background-color: white;
+    -moz-border-radius: 20px;
+    border-radius: 1px;
+    -webkit-border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.mdivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 6%;
+    margin-bottom: 2%;
+    
+}
+.machText{
+    display: flex;
+    font-size: 100%;
+    color: #160b59;
+    font-family: 'Segoe UI';
+    
+}
+.machTextdocs{
+    display: flex;
+    font-size: 100%;
+    color: #1c1feb;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.machHtext{
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI';
+    color: rgb(235, 231, 231);
+    
+}
+.machCont{
+    display: flex;
+    background-color: rgb(184, 180, 180);
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    -moz-border-radius: 20px;
+    border-radius: 1px;
+    -webkit-border-radius: 20px;
+}
+.machHeading{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #73171e;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:  16px;
+}
+.machHeading3{
+    display: flex;
+    width: 70%;
+    height: 10%;
+    background-color: #73171e;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:  16px;
+    margin-top: 5px;
+}
+.BackContainer1{
+    display: flex;
+    width: 100%;
+    align-self: left;
+    height: 100px;
+    justify-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* background-color: #8a2529; */
+
+  }
+  .backImage1{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 20px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    border-style: solid;
+    border-color: #73171e;
+    border-width: 1px;
+  }
