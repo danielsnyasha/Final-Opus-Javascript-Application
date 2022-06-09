@@ -10,7 +10,7 @@ const db = mysql.createConnection({
   port: "1212",
   user: "DevUser",
   password:"********",
-  // password: "lcv.120197",
+  
   database: "lcvsscopus_data",
 
 });
