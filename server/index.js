@@ -11,7 +11,7 @@ const db = mysql.createConnection({
   user: "DevUser",
   password:"********",
   
-  database: "lcvsscopus_data",
+  database: "mycompany_data",
 
 });
 
